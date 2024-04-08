@@ -30,6 +30,7 @@
  ****************************************************************************/
 
 #include <sys/stat.h>
+#include <ctime>
 #if defined(WIN32)
 #include <unistd.h>
 #endif
@@ -41,6 +42,7 @@
 #include "objindex.h"
 #include "realms.h"
 #include "roomindex.h"
+
 
 list < board_data * >bdlist;
 list < project_data * >projlist;
